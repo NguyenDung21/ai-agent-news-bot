@@ -56,6 +56,7 @@ def daily_summary():
     send_email("📰 Bản tin sáng AI Agent", summary)
 
 # ==== LỊCH TRÌNH TỰ ĐỘNG ====
+daily_summary()
 schedule.every().day.at("07:00").do(daily_summary)
 
 print("🤖 AI Agent đã sẵn sàng và sẽ chạy tự động mỗi sáng lúc 7h...")
