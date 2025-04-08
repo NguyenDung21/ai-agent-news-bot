@@ -15,7 +15,7 @@ EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 EMAIL_RECEIVER = os.environ.get("EMAIL_RECEIVER")
 
 # ==== CẤU HÌNH GEMINI ====
-genai.configure(api_key=GEMINI_API_KEY)
+genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 # ==== TÌM KIẾM WEB ====
