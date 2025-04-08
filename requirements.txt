@@ -3,3 +3,4 @@ duckduckgo-search
 schedule
 python-dotenv
 newspaper3k
+lxml[html_clean]
