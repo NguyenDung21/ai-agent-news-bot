@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 from duckduckgo_search import DDGS
 import google.generativeai as genai
 from dotenv import load_dotenv
-from newspaper import Article  # Thêm thư viện để trích xuất bài báo
+from newspaper import Article # Thêm thư viện để trích xuất bài báo
 
 # ==== 1. LOAD BIẾN MÔI TRƯỜNG ====
 load_dotenv()
