@@ -2,3 +2,4 @@ google-generativeai
 duckduckgo-search
 schedule
 python-dotenv
+newspaper3k
